@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin 1 5s;
+  height: 17vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333333;
+}
+
+.App-link {
+  color: #39c;
+  font-family: 'Helvetica Neue';
+}
+
+.h2 {
+  color: #333333;
+}
+
+.Text-description {
+  font-family: Helvetica Neue;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
